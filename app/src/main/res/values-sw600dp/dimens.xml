@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="size_1dp">1.25dp</dimen>
+    <dimen name="size_2dp">2.5dp</dimen>
+    <dimen name="size_3dp">3.75dp</dimen>
+    <dimen name="size_4dp">5dp</dimen>
+    <dimen name="size_8dp">10dp</dimen>
+    <dimen name="size_10dp">12.5dp</dimen>
+    <dimen name="size_12dp">15dp</dimen>
+    <dimen name="size_14dp">17.5dp</dimen>
+    <dimen name="size_16dp">20dp</dimen>
+    <dimen name="size_18dp">22.5dp</dimen>
+    <dimen name="size_20dp">25dp</dimen>
+    <dimen name="size_22dp">27.5dp</dimen>
+    <dimen name="size_24dp">30dp</dimen>
+    <dimen name="size_28dp">35dp</dimen>
+    <dimen name="size_32dp">40dp</dimen>
+    <dimen name="size_36dp">45dp</dimen>
+    <dimen name="size_40dp">50dp</dimen>
+    <dimen name="size_44dp">55dp</dimen>
+    <dimen name="size_48dp">60dp</dimen>
+    <dimen name="size_52dp">65dp</dimen>
+    <dimen name="size_54dp">67.5dp</dimen>
+    <dimen name="size_60dp">70dp</dimen>
+    <dimen name="size_64dp">75dp</dimen>
+    <dimen name="size_80dp">100dp</dimen>
+    <dimen name="size_84dp">105dp</dimen>
+    <dimen name="size_90dp">112.5dp</dimen>
+    <dimen name="size_72dp">90dp</dimen>
+    <dimen name="size_100dp">125dp</dimen>
+    <dimen name="size_120dp">150dp</dimen>
+    <dimen name="size_150dp">187.5dp</dimen>
+    <dimen name="size_180dp">217.5dp</dimen>
+    <dimen name="size_200dp">250dp</dimen>
+    <dimen name="size_220dp">275dp</dimen>
+    <dimen name="size_240dp">300dp</dimen>
+    <dimen name="size_300dp">375dp</dimen>
+
+
+    <dimen name="text_size_8sp">10sp</dimen>
+    <dimen name="text_size_10sp">12.5sp</dimen>
+    <dimen name="text_size_11sp">13.75sp</dimen>
+    <dimen name="text_size_12sp">15sp</dimen>
+    <dimen name="text_size_13sp">16.25sp</dimen>
+    <dimen name="text_size_14sp">17.5sp</dimen>
+    <dimen name="text_size_15sp">18.75sp</dimen>
+    <dimen name="text_size_16sp">20sp</dimen>
+    <dimen name="text_size_18sp">22.5sp</dimen>
+    <dimen name="text_size_20sp">25sp</dimen>
+    <dimen name="text_size_22sp">27.5sp</dimen>
+    <dimen name="text_size_24sp">30sp</dimen>
+    <dimen name="text_size_26sp">32.5sp</dimen>
+    <dimen name="text_size_30sp">37.5sp</dimen>
+    <dimen name="text_size_34sp">42.5sp</dimen>
+    <dimen name="text_size_48sp">60sp</dimen>
+
+</resources>

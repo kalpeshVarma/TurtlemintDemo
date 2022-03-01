@@ -1,0 +1,87 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'kotlin-parcelize'
+    id 'androidx.navigation.safeargs'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.kalpv.turtlemintdemo"
+        minSdk 26
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    /*Dependency Injection Dagger Hilt*/
+    implementation "com.google.dagger:hilt-android:$version_hilt"
+    kapt "com.google.dagger:hilt-compiler:$version_hilt"
+
+    /*Networking*/
+    implementation "com.squareup.retrofit2:retrofit:$version_retrofit"
+    implementation "com.google.code.gson:gson:$version_gson"
+    implementation "com.squareup.retrofit2:converter-gson:$version_retrofit"
+    implementation "com.squareup.okhttp3:logging-interceptor:$version_okhttp"
+
+    /*Coroutines*/
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$version_coroutines"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version_coroutines"
+
+    /*Shared preference*/
+    implementation "androidx.preference:preference-ktx:$version_ktxPreference"
+
+    /*Timber logs*/
+    implementation "com.jakewharton.timber:timber:$version_timberLog"
+
+    /*Room Database*/
+    implementation "androidx.room:room-runtime:$version_roomDB"
+    implementation "androidx.room:room-ktx:$version_roomDB"
+    kapt "androidx.room:room-compiler:$version_roomDB"
+
+    /*Coil Image Loading*/
+    implementation "io.coil-kt:coil:$version_coil"
+
+    /*Desugaring for new Java Time APIS*/
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
+
+}

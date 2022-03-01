@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TurtlemintDemo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_haze</item>
+        <item name="colorPrimaryVariant">@color/green_haze_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSurface">@color/grey_800</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <item name="colorSecondary">@color/grey_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/green_haze</item>
+    </style>
+</resources>
